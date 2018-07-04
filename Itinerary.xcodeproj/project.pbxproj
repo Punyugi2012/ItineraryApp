@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B891466A20ECDAA900BCAF78 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B891466920ECDAA900BCAF78 /* TripTableViewCell.swift */; };
+		B891466D20ECE13E00BCAF78 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B891466C20ECE13E00BCAF78 /* Theme.swift */; };
+		B891466F20ECE19B00BCAF78 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B891466E20ECE19B00BCAF78 /* Lobster-Regular.ttf */; };
+		B891467120ECE32600BCAF78 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B891467020ECE32600BCAF78 /* Colors.xcassets */; };
 		B8D8BA2020ECBF270093E32D /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8BA1F20ECBF270093E32D /* TripModel.swift */; };
 		B8D8BA2220ECBF300093E32D /* TripFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8BA2120ECBF300093E32D /* TripFunctions.swift */; };
 		B8D8BA2420ECC12E0093E32D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8BA2320ECC12E0093E32D /* Data.swift */; };
@@ -20,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		B891466920ECDAA900BCAF78 /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		B891466C20ECE13E00BCAF78 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B891466E20ECE19B00BCAF78 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		B891467020ECE32600BCAF78 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B8D8BA1F20ECBF270093E32D /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
 		B8D8BA2120ECBF300093E32D /* TripFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFunctions.swift; sourceTree = "<group>"; };
 		B8D8BA2320ECC12E0093E32D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -43,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B891466B20ECE12F00BCAF78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B891466E20ECE19B00BCAF78 /* Lobster-Regular.ttf */,
+				B891466C20ECE13E00BCAF78 /* Theme.swift */,
+				B891467020ECE32600BCAF78 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B8D8BA1D20ECBF0B0093E32D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +114,7 @@
 		B8DE915E20EA2AC5008889EE /* Itinerary */ = {
 			isa = PBXGroup;
 			children = (
+				B891466B20ECE12F00BCAF78 /* Resources */,
 				B8D8BA1D20ECBF0B0093E32D /* Model */,
 				B8D8BA2520ECCC1D0093E32D /* View_Controller */,
 				B8DE915F20EA2AC5008889EE /* AppDelegate.swift */,
@@ -166,7 +183,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B891467120ECE32600BCAF78 /* Colors.xcassets in Resources */,
 				B8DE916A20EA2AC7008889EE /* LaunchScreen.storyboard in Resources */,
+				B891466F20ECE19B00BCAF78 /* Lobster-Regular.ttf in Resources */,
 				B8D8BA2A20ECCC5C0093E32D /* TripsViewController.storyboard in Resources */,
 				B8DE916720EA2AC7008889EE /* Assets.xcassets in Resources */,
 			);
@@ -185,6 +204,7 @@
 				B8DE916020EA2AC5008889EE /* AppDelegate.swift in Sources */,
 				B8D8BA2420ECC12E0093E32D /* Data.swift in Sources */,
 				B8D8BA2820ECCC4B0093E32D /* TripsViewController.swift in Sources */,
+				B891466D20ECE13E00BCAF78 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
