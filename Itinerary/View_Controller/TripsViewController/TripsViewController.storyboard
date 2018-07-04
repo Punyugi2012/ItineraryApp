@@ -64,23 +64,37 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4K-vC-pMa">
+                                <rect key="frame" x="307" y="591" width="56" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="6vB-pV-rIk"/>
+                                    <constraint firstAttribute="width" constant="56" id="AF8-l1-GYB"/>
+                                </constraints>
+                                <state key="normal" image="add"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="b1s-lK-jL5" secondAttribute="bottom" id="8nz-9A-o8m"/>
+                            <constraint firstItem="WPp-Jw-Ufj" firstAttribute="trailing" secondItem="a4K-vC-pMa" secondAttribute="trailing" constant="12" id="FWS-cY-BOi"/>
                             <constraint firstItem="b1s-lK-jL5" firstAttribute="trailing" secondItem="WPp-Jw-Ufj" secondAttribute="trailing" id="Hbq-LM-75f"/>
+                            <constraint firstItem="WPp-Jw-Ufj" firstAttribute="bottom" secondItem="a4K-vC-pMa" secondAttribute="bottom" constant="20" id="e9J-QM-EiQ"/>
                             <constraint firstItem="b1s-lK-jL5" firstAttribute="top" secondItem="wJF-PL-tav" secondAttribute="top" id="hn1-js-NlS"/>
                             <constraint firstItem="b1s-lK-jL5" firstAttribute="leading" secondItem="WPp-Jw-Ufj" secondAttribute="leading" id="odP-PH-9Ni"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WPp-Jw-Ufj"/>
                     </view>
                     <connections>
+                        <outlet property="addButton" destination="a4K-vC-pMa" id="At6-WP-r2N"/>
                         <outlet property="tableView" destination="b1s-lK-jL5" id="GsL-KD-lQo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M9H-Bt-Cey" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-373.125" y="-146.83098591549296"/>
+            <point key="canvasLocation" x="-373.60000000000002" y="-147.07646176911544"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="add" width="32" height="32"/>
+    </resources>
 </document>

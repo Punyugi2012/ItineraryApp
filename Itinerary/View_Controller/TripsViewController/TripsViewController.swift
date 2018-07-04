@@ -11,6 +11,7 @@ import UIKit
 class TripsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var addButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +21,11 @@ class TripsViewController: UIViewController, UITableViewDataSource, UITableViewD
             self?.tableView.reloadData()
         }
         view.backgroundColor = Theme.background
+        addButton.layer.cornerRadius = addButton.frame.height / 2
+        addButton.backgroundColor = Theme.tint
+        addButton.layer.shadowOpacity = 0.25
+        addButton.layer.shadowOffset = CGSize(width: 0, height: 5)
+        addButton.layer.shadowRadius = 5
     }
     
     
