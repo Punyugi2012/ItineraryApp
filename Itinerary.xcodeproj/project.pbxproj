@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B891466A20ECDAA900BCAF78 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B891466920ECDAA900BCAF78 /* TripTableViewCell.swift */; };
 		B8D8BA2020ECBF270093E32D /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8BA1F20ECBF270093E32D /* TripModel.swift */; };
 		B8D8BA2220ECBF300093E32D /* TripFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8BA2120ECBF300093E32D /* TripFunctions.swift */; };
 		B8D8BA2420ECC12E0093E32D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8BA2320ECC12E0093E32D /* Data.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B891466920ECDAA900BCAF78 /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
 		B8D8BA1F20ECBF270093E32D /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
 		B8D8BA2120ECBF300093E32D /* TripFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFunctions.swift; sourceTree = "<group>"; };
 		B8D8BA2320ECC12E0093E32D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			children = (
 				B8D8BA2720ECCC4B0093E32D /* TripsViewController.swift */,
 				B8D8BA2920ECCC5C0093E32D /* TripsViewController.storyboard */,
+				B891466920ECDAA900BCAF78 /* TripTableViewCell.swift */,
 			);
 			path = TripsViewController;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B891466A20ECDAA900BCAF78 /* TripTableViewCell.swift in Sources */,
 				B8D8BA2020ECBF270093E32D /* TripModel.swift in Sources */,
 				B8D8BA2220ECBF300093E32D /* TripFunctions.swift in Sources */,
 				B8DE916020EA2AC5008889EE /* AppDelegate.swift in Sources */,
