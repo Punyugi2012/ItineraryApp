@@ -73,8 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				B8D8BA2720ECCC4B0093E32D /* TripsViewController.swift */,
-				B8D8BA2920ECCC5C0093E32D /* TripsViewController.storyboard */,
 				B891466920ECDAA900BCAF78 /* TripTableViewCell.swift */,
+				B8D8BA2920ECCC5C0093E32D /* TripsViewController.storyboard */,
 			);
 			path = TripsViewController;
 			sourceTree = "<group>";

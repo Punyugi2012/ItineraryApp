@@ -20,6 +20,10 @@ class TripTableViewCell: UITableViewCell {
         cardView.layer.shadowColor = UIColor.darkGray.cgColor
         cardView.layer.cornerRadius = 10
     }
+    
+    func setupCell(title: String) {
+        titleLabel.text = title
+    }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)

@@ -29,7 +29,7 @@ class TripsViewController: UIViewController, UITableViewDataSource, UITableViewD
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TripCell", for: indexPath)
         if let tripCell = cell as? TripTableViewCell {
-            tripCell.titleLabel.text = Data.tripModels[indexPath.row].title
+            tripCell.setupCell(title: Data.tripModels[indexPath.row].title)
         }
         return cell
     }
