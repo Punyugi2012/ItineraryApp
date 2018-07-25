@@ -71,6 +71,9 @@
                                     <constraint firstAttribute="width" constant="56" id="AF8-l1-GYB"/>
                                 </constraints>
                                 <state key="normal" image="add"/>
+                                <connections>
+                                    <segue destination="jX8-Ai-t69" kind="presentation" id="rqs-Uv-5yH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -91,7 +94,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M9H-Bt-Cey" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-373.60000000000002" y="-147.07646176911544"/>
+            <point key="canvasLocation" x="-530" y="-142"/>
+        </scene>
+        <!--AddTripViewController-->
+        <scene sceneID="sFa-gT-IQG">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AddTripViewController" id="jX8-Ai-t69" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8jR-cO-iay" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="356" y="-141"/>
         </scene>
     </scenes>
     <resources>

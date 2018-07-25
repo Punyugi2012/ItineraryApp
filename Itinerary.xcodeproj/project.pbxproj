@@ -11,6 +11,8 @@
 		B891466D20ECE13E00BCAF78 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B891466C20ECE13E00BCAF78 /* Theme.swift */; };
 		B891466F20ECE19B00BCAF78 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B891466E20ECE19B00BCAF78 /* Lobster-Regular.ttf */; };
 		B891467120ECE32600BCAF78 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B891467020ECE32600BCAF78 /* Colors.xcassets */; };
+		B89ACF892108584B00791C53 /* AddTripViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89ACF882108584B00791C53 /* AddTripViewController.storyboard */; };
+		B89ACF8B2108590000791C53 /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89ACF8A2108590000791C53 /* AddTripViewController.swift */; };
 		B8D8BA2020ECBF270093E32D /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8BA1F20ECBF270093E32D /* TripModel.swift */; };
 		B8D8BA2220ECBF300093E32D /* TripFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8BA2120ECBF300093E32D /* TripFunctions.swift */; };
 		B8D8BA2420ECC12E0093E32D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8BA2320ECC12E0093E32D /* Data.swift */; };
@@ -26,6 +28,8 @@
 		B891466C20ECE13E00BCAF78 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		B891466E20ECE19B00BCAF78 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
 		B891467020ECE32600BCAF78 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		B89ACF882108584B00791C53 /* AddTripViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = AddTripViewController.storyboard; path = Itinerary/View_Controller/AddTripViewController/AddTripViewController.storyboard; sourceTree = SOURCE_ROOT; };
+		B89ACF8A2108590000791C53 /* AddTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripViewController.swift; sourceTree = "<group>"; };
 		B8D8BA1F20ECBF270093E32D /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
 		B8D8BA2120ECBF300093E32D /* TripFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFunctions.swift; sourceTree = "<group>"; };
 		B8D8BA2320ECC12E0093E32D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -55,8 +59,18 @@
 				B891466E20ECE19B00BCAF78 /* Lobster-Regular.ttf */,
 				B891466C20ECE13E00BCAF78 /* Theme.swift */,
 				B891467020ECE32600BCAF78 /* Colors.xcassets */,
+				B8DE916620EA2AC7008889EE /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B89ACF872108582600791C53 /* AddTripViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B89ACF882108584B00791C53 /* AddTripViewController.storyboard */,
+				B89ACF8A2108590000791C53 /* AddTripViewController.swift */,
+			);
+			path = AddTripViewController;
 			sourceTree = "<group>";
 		};
 		B8D8BA1D20ECBF0B0093E32D /* Model */ = {
@@ -80,6 +94,7 @@
 		B8D8BA2520ECCC1D0093E32D /* View_Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B89ACF872108582600791C53 /* AddTripViewController */,
 				B8D8BA2620ECCC310093E32D /* TripsViewController */,
 			);
 			path = View_Controller;
@@ -118,7 +133,6 @@
 				B8D8BA1D20ECBF0B0093E32D /* Model */,
 				B8D8BA2520ECCC1D0093E32D /* View_Controller */,
 				B8DE915F20EA2AC5008889EE /* AppDelegate.swift */,
-				B8DE916620EA2AC7008889EE /* Assets.xcassets */,
 				B8DE916820EA2AC7008889EE /* LaunchScreen.storyboard */,
 				B8DE916B20EA2AC7008889EE /* Info.plist */,
 			);
@@ -187,6 +201,7 @@
 				B8DE916A20EA2AC7008889EE /* LaunchScreen.storyboard in Resources */,
 				B891466F20ECE19B00BCAF78 /* Lobster-Regular.ttf in Resources */,
 				B8D8BA2A20ECCC5C0093E32D /* TripsViewController.storyboard in Resources */,
+				B89ACF892108584B00791C53 /* AddTripViewController.storyboard in Resources */,
 				B8DE916720EA2AC7008889EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,6 +218,7 @@
 				B8D8BA2220ECBF300093E32D /* TripFunctions.swift in Sources */,
 				B8DE916020EA2AC5008889EE /* AppDelegate.swift in Sources */,
 				B8D8BA2420ECC12E0093E32D /* Data.swift in Sources */,
+				B89ACF8B2108590000791C53 /* AddTripViewController.swift in Sources */,
 				B8D8BA2820ECCC4B0093E32D /* TripsViewController.swift in Sources */,
 				B891466D20ECE13E00BCAF78 /* Theme.swift in Sources */,
 			);
